@@ -2,7 +2,7 @@
 A Beginner's Git and GitHub Tutorial
 
 ## Introduction
-Git is a command line tool use for version control (aka Revision control) that lets you track your files modifications history over time.
+Git is a command line tool use for Version Control (or Revision Control) that lets you track your files modification history over time.
 
 GitHub.com is a code hosting platform for version control and team collaboration. It lets you and others work together on projects from anywhere.
 
@@ -13,6 +13,7 @@ Git command: git init
 Create a file and type something and save.
 
 Use git add command to tell Git to include the new file to the staging area (prepare the new file for next commit)
+
 Git command: git add .
 
 ### Step 3. Commit Changes
