@@ -1,5 +1,6 @@
-# Hello Git!
+# Hello-Git
 A Beginner's Git and GitHub Tutorial
+<<<<<<< HEAD
 
 ## Introduction
 Git is a command line tool use for Version Control (or Revision Control) that lets you track your files modification history over time.
@@ -21,3 +22,5 @@ Git command: git commit -m "Initial commit"
 
 ### Step 4. Push commit to Github
 Git command: git push origin master
+=======
+>>>>>>> parent of d711bb9... version 0.01
