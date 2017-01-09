@@ -8,26 +8,35 @@ GitHub.com is a code hosting platform for version control and team collaboration
 
 ### Step 1. Create a new Repository
 Clone an existing repository
-    Git command: git clone https://github.com/username/reponame.git
+
+    git clone https://github.com/username/reponame.git
 
 or
 
 Create a new repository
-    Git command: git init
+
+    git init
 
 ### Step 2. Make changes
 Create a file and type something and save.
 
-Use git add command to tell Git to include the new file to the staging area (prepare the new file for next commit)
+Add all current changes files to next commit
 
-    Git command: git add .
+    git add .
 
 ### Step 3. Commit Changes
-    Git command: git commit -m "Initial commit"
 
-### Step 4. Push commit to Github
-    Git command: git push origin master
+    git commit -m "Initial commit"
+
+### Step 4. Push commit to origin (Github)
+
+    git push origin master
 
 
-## View Code Changes
-    Git command: git status
+## View changed file in working directory
+
+    git status
+
+## View changes to tracked file
+
+    git diff
